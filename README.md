@@ -18,3 +18,5 @@ With the above settings you have to change /__swift/config/config.php and remove
 #define('SWIFT_BASENAME', 'index.php?');
 define('SWIFT_BASENAME', '');
 ```
+
+Included MySQL configuration and php.ini settings for a Kayako system running on CentOS7, MySQL 5.7.12, nginx on a 4-core, 10GB single-server.
