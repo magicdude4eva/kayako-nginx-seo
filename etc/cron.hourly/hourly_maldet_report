@@ -1,0 +1,3 @@
+if [ "$(ps -A --user root -o "comm" | grep inotifywait)" ]; then /usr/local/maldetect/maldet --alert-daily >> /dev/null 2>&1
+fi
+
